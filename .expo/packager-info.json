@@ -1,9 +1,0 @@
-{
-  "webpackServerPort": 19006,
-  "devToolsPort": 19002,
-  "expoServerPort": 8081,
-  "packagerPort": 8081,
-  "expoServerNgrokUrl": "https://gs-u4n.sumitt806.ns-video.exp.direct",
-  "packagerNgrokUrl": "https://packager.gs-u4n.sumitt806.ns-video.exp.direct",
-  "ngrokPid": 17832
-}
