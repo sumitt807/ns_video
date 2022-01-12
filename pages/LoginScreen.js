@@ -1,11 +1,14 @@
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View } from 'react-native';
+import { View, StyleSheet, } from 'react-native';
+import { Video, AVPlaybackStatus } from 'expo-av';
 
-export default function Login() {
+export default function LoginScreen() {
+    const video = React.useRef(null);
+    const [status, setStatus] = React.useState({});
     return (
         <View style={styles.container}>
-            <Text>This is Login Screen</Text>
-            <StatusBar style="auto" />
+            <Text>Login Screen</Text>
         </View>
     );
 }
@@ -16,5 +19,6 @@ const styles = StyleSheet.create({
         backgroundColor: '#fff',
         alignItems: 'center',
         justifyContent: 'center',
+
     },
 });
