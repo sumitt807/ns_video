@@ -7,5 +7,6 @@ function App() {
   return <Navigation></Navigation>;
 }
 
-
+// Next task TextInput, Button, Touchable, TouchableOpacity, TouchableHighlited, TouchableWithoutFeedback, Pressable
+// https://youtu.be/ANdSdIlgsEw?t=6341
 export default App;
